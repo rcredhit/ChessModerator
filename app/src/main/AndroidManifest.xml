@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rcredhit.sks.chessmoderator">
+
+        <application
+        android:allowBackup="true"
+        android:icon="@mipmap/my_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Start"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TimerSettings"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Clock"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Winner"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="TossSize">20dp</dimen>
+    <dimen name="ResultPadding">40dp</dimen>
+    <dimen name="ResultButtonMargin">20sp</dimen>
+    <dimen name="TimerTextSize">60sp</dimen>
+    <dimen name="AllTextSize">15sp</dimen>
+</resources>
